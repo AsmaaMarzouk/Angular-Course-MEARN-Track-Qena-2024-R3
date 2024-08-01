@@ -3,10 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './Components/navbar/navbar.component';
+import { FooterComponent } from './Components/footer/footer.component';
+import { MainHomeComponent } from './Components/main-home/main-home.component';
+import { SidebarComponent } from './Components/sidebar/sidebar.component';
 
+//class decorator
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    FooterComponent,
+    MainHomeComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
